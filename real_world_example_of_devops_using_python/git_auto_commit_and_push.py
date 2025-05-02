@@ -10,7 +10,7 @@ def git_commit_push(message):
     subprocess.run(["git", "commit", "-m", message], check=True)
 
     # Push the commit to the remote repository
-    subprocess.run(["git", "push"], check=True)
+    subprocess.run(["git", "push","origin","feature"], check=True)
 
     print("Changes pushed to remote repository.")
 
