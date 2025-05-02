@@ -15,4 +15,4 @@ def git_commit_push(message):
     print("Changes pushed to remote repository.")
 
 
-git_commit_push("Auto commit from Python script")  # Customize commit message
+git_commit_push("Auto commit from Python script second_time")  # Customize commit message
